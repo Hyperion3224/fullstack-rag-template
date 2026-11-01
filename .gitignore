@@ -1,0 +1,52 @@
+# I took this from somewhere else so if some of these dont make sense thats why.
+
+# .NET build artifacts
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+
+# dependencies (bun install)
+node_modules/
+.bun/
+
+# wwwroot content but not itself
+wwwroot/*
+!wwwroot/.gitkeep
+
+# build output
+out
+dist/
+wwwroot/
+*.tgz
+
+# Vite cache
+.vite/
+
+# code coverage
+coverage
+*.lcov
+
+# logs
+logs
+_.log
+report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store
